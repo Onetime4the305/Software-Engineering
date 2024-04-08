@@ -1,0 +1,139 @@
+/* Layout for Website */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f44336;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Size of Website */
+input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  background-color: #f44336; /* red */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f44336; /* red */
+}
+
+/* Message Styles */
+.success-message,
+.failure-message {
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  background-color: #4CAF50; /* green */
+}
+
+.failure-message {
+  background-color: #f44336; /* red */
+}
+
+/* Title Styles */
+h1 {
+  font-family: Tahoma;
+  color: #f44336; /* red */
+  font-size: 40px;
+}
+
+/* Slogan Styles */
+.slogan-text {
+  color: black;
+  font-family: Book Antiqua;
+  font-size: 34px;
+  font-style: italic;
+}
+
+/* Customization Option Styles */
+h2 {
+  font-family: Tahoma;
+  color: #f44336; /* red */
+  font-size: 25px;
+}
+
+/* Copy To Clipboard Styles */
+#copyText {
+  color: #2196F3;
+  text-decoration: underline;
+}
+
+/* Slider Styles */
+.customization-options input[type="range"] {
+  vertical-align: middle;
+}
+
+/* Status Password Styles */
+#status_password {
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100px;
+  margin: auto;
+}
+
+/* Checkbox Circle */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Color for Checkbox Checked */
+input[type="checkbox"]:checked {
+  background-color: #f44336; /* red */
+}
+
+/* Customization Options Checkbox Styles */
+.customization-options input[type="checkbox"] {
+  display: inline-block;
+}
+
+.customization-options label {
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.customization-options div {
+  margin-bottom: 10px;
+  text-align: center;
+}
