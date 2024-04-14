@@ -91,7 +91,7 @@
                 return;
             }
 
-            if (length <= 8) {
+            if (length < 8) {
                 alert("Select a minimum of 8 characters to generate a secure password");
                 return;
             }
