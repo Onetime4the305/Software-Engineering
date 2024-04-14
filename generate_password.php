@@ -90,6 +90,12 @@
                 showMessage("Please select at least one option", false);
                 return;
             }
+
+            if (length <= 8) {
+                alert("Select a minimum of 8 characters to generate a secure password");
+                return;
+            }
+
             var password = "";
             for (var i = 0; i < length; i++) {
                 var randomIndex = Math.floor(Math.random() * charset.length);
